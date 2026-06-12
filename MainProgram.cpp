@@ -132,7 +132,7 @@ public:
         if (index <0 || index >=N)
             throw std::out_of_range("FixedArray index out of range");
             
-        return data_[index]  = value;
+         data_[index]  = value;
     }
 
     // TODO 6d: return data_[index]; throw std::out_of_range if invalid
